@@ -1,0 +1,6 @@
+digraph{
+        A[label="太平天国",color=blue,style=filled];
+        B[label="金田起义",color=red,style=filled];
+        A -> B ;
+        B -> {"洪秀全","杨秀清","洪仁玕","石达开"}
+}

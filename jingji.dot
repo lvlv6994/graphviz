@@ -1,0 +1,18 @@
+digraph{
+        A[label="政府(国家资本)"];
+        B[label="房子（必需品）"];
+        C[label="草民（工人）"];
+        D[label="产业（工业化）"];
+
+        A -> D[label="钱"];
+        D -> C[label="钱"];
+        C -> B[label="钱"];
+        B -> A[label="钱"];
+}
+
+digraph{
+        
+        A -> B[label="外包"];
+        B -> C[label="外包"];
+        C -> D[label="外包"];
+}

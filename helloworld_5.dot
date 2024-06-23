@@ -1,0 +1,4 @@
+digraph{
+"绘制大纲" -> {"dot","mmdc"};
+"转成影片" -> {"manim", "moviepy"};
+}
